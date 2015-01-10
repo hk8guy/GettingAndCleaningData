@@ -27,6 +27,7 @@ The R script works in the following steps:
 3.	Combine the test data and merge data using "rbind".
 
 4.	Name the variables in all the data frames for manipulation later.
+	
 	Here, the variable names in the merged data set are applied directly from the features data set.
 	
 5.	Extract the data that have mean and standard deviation using "grepl". The keyword are "mean()" and "std()".
